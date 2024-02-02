@@ -1,0 +1,32 @@
+header .info {
+    padding-top: 100px;
+}
+
+.image-plus {
+	transition: 1s;
+}
+.image-plus:hover {
+	transform: scale(1.1);
+}
+
+img.rot {
+  animation: 1s linear 0s normal none infinite running rot;
+  -webkit-animation: 1s linear 0s normal none infinite running rot;
+  width: 100px;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
